@@ -1,0 +1,9 @@
+:root { color-scheme: light dark; --bg: #ffffff; --text: #151515; --muted: #5c5c5c; --line: #d9d9d9; }
+@media (prefers-color-scheme: dark) { :root { --bg: #121212; --text: #f1f1f1; --muted: #a3a3a3; --line: #333; } }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 "Segoe UI", Roboto, system-ui, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+h1 { font-size: 28px; margin: 12px 0 4px; }
+h2 { font-size: 18px; margin: 28px 0 6px; border-top: 1px solid var(--line); padding-top: 20px; }
+a { color: inherit; }
+.muted { color: var(--muted); }
+img { border-radius: 16px; }
