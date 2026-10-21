@@ -3,16 +3,149 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>YouBad</title>
+  <title>YouBad — Publish to YouTube and TikTok at once</title>
+  <meta name="description" content="YouBad is a desktop app for creators to publish the same video to their YouTube channel and TikTok account at the same time.">
   <link rel="icon" href="icon.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
-    <img src="icon.png" alt="YouBad logo" width="72" height="72">
-    <h1>YouBad</h1>
-    <p>YouBad is a personal desktop studio used by its owner to create short videos and publish them to the owner's own YouTube channels and TikTok accounts. It is not offered to the public.</p>
-    <p><a href="terms.html">Terms of Service</a> · <a href="privacy.html">Privacy Policy</a></p>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="#"><img src="icon.png" alt="">YouBad</a>
+      <nav class="links">
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="#tiktok">TikTok integration</a>
+        <a href="#data">Data</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="hero">
+      <div>
+        <span class="eyebrow">Desktop app · Windows</span>
+        <h1>Publish once. Post to YouTube and TikTok.</h1>
+        <p class="lead">YouBad is a desktop app for creators. Import your video, write your YouTube title and TikTok caption, choose your settings, and publish to both platforms at the same time — with you in control of every post.</p>
+        <div class="cta">
+          <a class="btn primary" href="#how">See how it works</a>
+          <a class="btn" href="#tiktok">TikTok integration</a>
+        </div>
+      </div>
+
+      <!-- Aperçu de l'interface -->
+      <div>
+        <div class="app" role="img" aria-label="YouBad dashboard preview">
+          <div class="bar"><img src="icon.png" alt="">YouBad</div>
+          <div class="body">
+            <div class="side"><div class="on">Dashboard</div><div>My accounts</div><div>Settings</div></div>
+            <div class="main">
+              <div class="t">Dashboard</div>
+              <div class="kpis">
+                <div class="kpi"><b>3</b>Accounts</div>
+                <div class="kpi"><b>12</b>Videos</div>
+                <div class="kpi"><b>48</b>Published</div>
+                <div class="kpi"><b>2</b>Platforms</div>
+              </div>
+              <div class="bars" aria-hidden="true"><i style="height:40%"></i><i style="height:65%"></i><i style="height:52%"></i><i style="height:80%"></i><i style="height:60%"></i><i style="height:92%"></i><i style="height:74%"></i></div>
+              <div class="rowv"><span class="thumb"></span><span>The dog who waited 9 years</span><span class="pill on">TikTok ✓</span></div>
+              <div class="rowv"><span class="thumb"></span><span>The mystery of the Taj Mahal</span><span class="pill">Ready</span></div>
+            </div>
+          </div>
+        </div>
+        <p class="caption">Interface preview</p>
+      </div>
+    </div>
   </main>
+
+  <section id="features">
+    <div class="wrap">
+      <h2>Everything in one place</h2>
+      <p class="intro">No more uploading the same video twice: YouBad replaces the back-and-forth between YouTube Studio and the TikTok app.</p>
+      <div class="grid3">
+        <div class="card"><div class="icon"><svg viewBox="0 0 24 24"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6"/></svg></div>
+          <h3>Import your videos</h3><p>Add a video from your computer (MP4, MOV or WebM). It is stored in the library of the account you choose.</p></div>
+        <div class="card"><div class="icon"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 21h8"/></svg></div>
+          <h3>Several channels</h3><p>Each account groups one YouTube channel and one TikTok account, with its own videos and statistics.</p></div>
+        <div class="card"><div class="icon"><svg viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg></div>
+          <h3>Post to both at once</h3><p>Title and description for YouTube, caption for TikTok, visibility chosen by you, then one click publishes to both.</p></div>
+        <div class="card"><div class="icon"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div>
+          <h3>Statistics</h3><p>Followers, likes, views and the performance of your latest videos, for every account, on one dashboard.</p></div>
+        <div class="card"><div class="icon"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M9 9h6v6H9z"/></svg></div>
+          <h3>Video library</h3><p>Every video with its status — draft, ready, scheduled, published — and its publication history.</p></div>
+        <div class="card"><div class="icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <h3>Local and private</h3><p>Videos, settings and access tokens stay on your computer. Nothing is sent to any server other than YouTube and TikTok.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="wrap">
+      <h2>How it works</h2>
+      <p class="intro">From your video file to two published posts, in four steps.</p>
+      <div class="steps">
+        <div class="step"><span class="n">1</span><div><h3>Create an account</h3><p>In “My accounts”, create an account and link its YouTube channel and its TikTok account through the official sign-in pages of Google and TikTok.</p></div></div>
+        <div class="step"><span class="n">2</span><div><h3>Import a video</h3><p>Choose a video from your computer. YouBad shows a preview and stores it in the account's library.</p></div></div>
+        <div class="step"><span class="n">3</span><div><h3>Write and choose</h3><p>Write the YouTube title and description and the TikTok caption, then choose the visibility, the interaction settings and the commercial content disclosure.</p></div></div>
+        <div class="step"><span class="n">4</span><div><h3>Publish to both</h3><p>Confirm the post: YouBad uploads the video to YouTube and TikTok at the same time, shows the progress, then the statistics on the dashboard.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tiktok">
+    <div class="wrap grid2">
+      <div>
+        <h2>TikTok integration</h2>
+        <p class="intro">YouBad uses TikTok Login Kit and the Content Posting API (Direct Post).</p>
+        <div class="steps">
+          <div class="step"><span class="n">1</span><div><h3>Sign in with TikTok</h3><p>The user clicks “Link the TikTok account”. The TikTok authorization page opens in the browser and lists the permissions requested. Nothing is linked until the user approves.</p></div></div>
+          <div class="step"><span class="n">2</span><div><h3>Account shown in the app</h3><p>YouBad displays the linked account's name and avatar, so the user always knows which account will post.</p></div></div>
+          <div class="step"><span class="n">3</span><div><h3>Post with explicit choices</h3><p>Before each post, the user sees the creator's nickname, writes the caption, picks the privacy level from the options allowed by TikTok, sets comments, Duet and Stitch, declares commercial content if any, and confirms.</p></div></div>
+          <div class="step"><span class="n">4</span><div><h3>Status and statistics</h3><p>After posting, the user is told the video may take a few minutes to appear. Views and likes are then shown on the dashboard.</p></div></div>
+        </div>
+      </div>
+      <div>
+        <div class="post" role="img" aria-label="Preview of the post to TikTok window">
+          <b style="font-size:16px">Post to TikTok</b>
+          <div class="who"><span class="av"></span><div><b>Posting as</b><div class="muted small">@your.account</div></div></div>
+          <label>Caption <span class="field">The dog who waited 9 years at the same station… #history #truestory</span></label>
+          <label>Who can view this video <span class="field empty">Select…</span></label>
+          <label>Allow users to <span class="toggles"><span class="tg"><i></i>Comment</span><span class="tg"><i></i>Duet</span><span class="tg"><i></i>Stitch</span></span></label>
+          <label>Disclose commercial content <span class="toggles"><span class="tg"><i></i>Your brand / Branded content</span></span></label>
+          <p class="consent">By posting, you agree to TikTok's <a href="https://www.tiktok.com/legal/page/global/music-usage-confirmation/en" target="_blank" rel="noopener">Music Usage Confirmation</a>.</p>
+          <span class="go">Post</span>
+        </div>
+        <p class="caption">Post window preview</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="data">
+    <div class="wrap">
+      <h2>Data used</h2>
+      <p class="intro">YouBad only requests what it needs. All data stays on the user's computer and is never shared or sold. Details in the <a href="privacy.html">Privacy Policy</a>.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Permission</th><th>What YouBad does with it</th></tr></thead>
+          <tbody>
+            <tr><td><code>user.info.basic</code></td><td>Shows the linked account's display name and avatar.</td></tr>
+            <tr><td><code>user.info.profile</code></td><td>Shows the @username of the linked account.</td></tr>
+            <tr><td><code>user.info.stats</code></td><td>Shows follower, like and video counts on the dashboard.</td></tr>
+            <tr><td><code>video.list</code></td><td>Shows views, likes and comments of the latest videos on the dashboard.</td></tr>
+            <tr><td><code>video.publish</code></td><td>Publishes a video to the user's own account after the user confirms the post.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <span>© 2026 YouBad · Independent project, not affiliated with TikTok or YouTube.</span>
+      <nav><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a><a href="https://github.com/Mongoloise/youbad">Contact</a></nav>
+    </div>
+  </footer>
 </body>
 </html>

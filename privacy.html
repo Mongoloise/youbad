@@ -8,29 +8,46 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
-    <p><a href="index.html">← YouBad</a></p>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="index.html"><img src="icon.png" alt="">YouBad</a>
+      <nav class="links">
+        <a href="index.html#features">Features</a>
+        <a href="index.html#how">How it works</a>
+        <a href="index.html#tiktok">TikTok integration</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </div>
+  </header>
+  <main class="doc">
     <h1>Privacy Policy</h1>
     <p class="muted">Last updated: October 21, 2026</p>
 
-    <h2>1. Who uses YouBad</h2>
-    <p>YouBad is a personal desktop application used only by its owner to manage the owner's own YouTube channels and TikTok accounts. It does not collect data from any other person.</p>
+    <h2>1. Summary</h2>
+    <p>YouBad runs on your computer. It has no server and no user account of its own. Your videos, your settings and the access tokens of your YouTube and TikTok accounts are stored only on your computer and are only sent to YouTube and TikTok.</p>
 
-    <h2>2. Data received</h2>
-    <p>When a TikTok account is connected, YouBad receives: the account's display name, username and avatar; account statistics (follower, following, like and video counts); the list of the account's videos with their view, like, comment and share counts; and access tokens allowing YouBad to publish videos on behalf of the owner.</p>
-    <p>When a YouTube channel is connected, YouBad receives the channel name, its statistics, the list of its recent videos with their statistics, and access tokens allowing YouBad to upload videos.</p>
+    <h2>2. Data received from TikTok</h2>
+    <p>When you link a TikTok account, YouBad receives: your display name, username and avatar; your account statistics (follower, following, like and video counts); the list of your recent videos with their view, like, comment and share counts; your posting settings (available privacy levels, interaction settings, maximum video length); and access tokens allowing YouBad to publish the videos you confirm.</p>
 
-    <h2>3. How the data is used</h2>
-    <p>This data is used only to display statistics to the owner inside the application and to publish the owner's videos to the owner's own accounts.</p>
+    <h2>3. Data received from YouTube</h2>
+    <p>When you link a YouTube channel, YouBad receives the channel name, its statistics, the list of its recent videos with their statistics, and access tokens allowing YouBad to upload the videos you confirm.</p>
 
-    <h2>4. Storage and sharing</h2>
-    <p>All data and access tokens are stored only on the owner's computer. They are never sold, shared with or transferred to third parties, and are not used for advertising.</p>
+    <h2>4. How the data is used</h2>
+    <p>This data is used only to show you which account will post, to show your statistics inside the app, and to publish the videos you choose, with the settings you choose.</p>
 
-    <h2>5. Deletion</h2>
-    <p>Disconnecting an account in YouBad deletes its stored tokens. Access can also be revoked at any time in the TikTok app (Settings → Security → Apps and services permissions) or in the Google account permissions page (https://myaccount.google.com/permissions).</p>
+    <h2>5. Sharing</h2>
+    <p>YouBad does not sell, rent or share your data with anyone, does not use it for advertising and does not send it to any server other than YouTube and TikTok.</p>
 
-    <h2>6. Contact</h2>
-    <p>For any question about this policy, contact the owner at the email address associated with the YouBad developer account.</p>
-  </main>
-</body>
+    <h2>6. Deleting your data</h2>
+    <p>Disconnecting an account in YouBad deletes its stored tokens. Uninstalling YouBad and deleting its folder removes all its data. You can also revoke access at any time in the TikTok app (Settings → Security → Apps and services permissions) or on your <a href="https://myaccount.google.com/permissions">Google account permissions page</a>.</p>
+
+    <h2>7. Contact</h2>
+    <p>For any question about this policy, open an issue on the <a href="https://github.com/Mongoloise/youbad">YouBad GitHub page</a>.</p>  </main>
+  <footer>
+    <div class="wrap">
+      <span>© 2026 YouBad · Independent project, not affiliated with TikTok or YouTube.</span>
+      <nav><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a><a href="https://github.com/Mongoloise/youbad">Contact</a></nav>
+    </div>
+  </footer></body>
 </html>
